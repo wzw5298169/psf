@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;/*清除文字下划线*/
+}
+/*首页顶部导航开始*/
+.huahui-header{
+    width: 100%;
+    height: 79px;
+    background: white;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+.header-content{
+    width: 1170px;
+    height: 100%;
+    margin: 0 auto;
+}
+.header-logo{
+    width: 150px;
+    height: 100%;
+    float: left;
+}
+.header-logo img{
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+}
+.header-nav{
+    width: 602px;
+    height: 79px;
+    /* background:pink;*/
+    float: right;
+}
+.header-nav a{
+    width: 86px;
+    height: 79px;
+    text-align: center;
+    line-height: 79px;
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+    float: left;
+}
+.header-nav a:last-child {
+    color: blue;
+}
+.header-nav a:hover{
+    color:  blue;
+}
+/*首页导航结束*/
+/*图片开始*/
+.suxin-picture{
+    width: 100%;
+    height: 352px;
+}
+.suxin-picture img{
+    width: 100%;
+    height:352px;
+}
+/*工作室开始*/
+.five-box{
+    height: 765px;
+    padding: 0px 15px;
+    margin: 90px auto;
+    box-sizing: border-box;
+}
+.five-box-first{
+    width: 1140px;
+    height: 759px;
+    padding:0px 15px;
+    margin: 0 auto;
+}
+.first-title-a{
+    width: 100%;
+    height: 43px;
+    margin:0 auto;
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+}
+/*工作室加百度图片*/
+.five-box-next{
+    width: 1080px;
+    height: 612px;
+    padding: 30px;
+    margin: 50px auto 0px;
+    box-sizing: border-box;
+}
+.five-title-p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 32px;
+    color:rgb(34,34,34);
+    text-align: center;
+}
+.five-title-p span{
+    height: 20px;
+}
+.five-picture-baidu{
+    width: 1080px;
+    height: 340px;
+    margin-top: 20px;
+    text-align: center;
+}
+.five-picture-baidu img {
+    width: 530px;
+    height: 340px;
+}
+/*工作室结束*/
+/*底部开始*/
+.foot{
+    width: 100%;
+    height: 181px;
+    margin: 0 auto;
+    background: rgb(224, 224, 224);
+    box-sizing: border-box;
+}
+.foot-text{
+    width: 1349px;
+    height: 56px;
+    margin: 0 auto;
+    padding: 5px 0px;
+    box-sizing: border-box;
+    /* background: #b0291b;*/
+}
+.foot-picture{
+    width: 150px;
+    height: 40px;
+    /* background: black;*/
+    margin: 0 auto;
+}
+.foot-picture i{
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    font-size: 30px;
+    color: #16c10a;
+    cursor: pointer;
+}
+/*.erweima{
+    width: 200px;
+    height: 0;
+    background: #e0e0e0;
+    position: absolute;
+    left: 600px;
+    bottom: 181px;
+    transition: all 0.5s linear;
+    z-index: 999;
+}*/
+.foot-picture a{
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    font-size: 30px;
+    color: #09c0b8;
+    cursor: pointer;
+}
+.foot-txt{
+    width: 1349px;
+    height: 79px;
+    margin: 0 auto;
+}
+.foot-txt img{
+    width: 20px;
+    height: 20px;
+}
+.txt-1{
+    width: 1349px;
+    height: 25px;
+    color: #00a5c4;
+    text-align: center;
+    cursor: pointer;
+}
+.foot-txt-next{
+    width: 1140px;
+    height: 25px;
+    margin: 0 auto;
+}
+.txt-2{
+    font-weight: 300;
+    font-size: 14px;
+    color: rgb(170,170,170);
+    text-align: center;
+}
+/*底部结束*/

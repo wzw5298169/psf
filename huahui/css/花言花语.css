@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;/*清除文字下划线*/
+}
+/*首页顶部导航开始*/
+.huahui-header{
+    width: 100%;
+    height: 79px;
+    background: white;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+.header-content{
+    width: 1170px;
+    height: 100%;
+    margin: 0 auto;
+}
+.header-logo{
+    width: 150px;
+    height: 100%;
+    float: left;
+}
+.header-logo img{
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+}
+.header-nav{
+    width: 602px;
+    height: 79px;
+    /* background:pink;*/
+    float: right;
+}
+.header-nav a{
+    width: 86px;
+    height: 79px;
+    text-align: center;
+    line-height: 79px;
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+    float: left;
+}
+.header-nav a:nth-child(2) {
+    color: blue;
+}
+.header-nav a:hover{
+    color:  blue;
+}
+/*首页导航结束*/
+/*中间部分开始*/
+.two-header{
+    width: 100%;
+    height: 120px;
+   background: rgb(224, 224, 224);
+   margin-top: 79px;
+}
+.two-header h1{
+    color: #F67A82;
+    font-size: 35px;
+    font-weight: 400;
+    margin: auto;
+    padding: 10px 30px;
+    line-height: 95px;
+    text-align: center;
+}
+.two-container{
+    width: 100%;
+    height: 2020px;
+    background: rgb(224, 224, 224);
+    padding: 30px 0;
+    margin-bottom:30px;
+}
+.two-container-box{
+    width: 1140px;
+    height: 100%;
+    margin: auto;
+}
+.container-box-left{
+    width: 850px;
+    height: 100%;
+    float: left;
+    padding: 0 15px;
+    background: white;
+    box-sizing: border-box;
+}
+.container-box-picture1{
+    width: 820px;
+    height: 160px;
+    margin-bottom: 20px;
+    padding: 30px 0;
+    border-bottom: 1px solid #f1eded;
+
+}
+.two-picture1-left{
+    width: 160px;
+    height: 160px;
+    padding-right: 20px;
+    float: left;
+}
+.two-picture1-left img{
+    width: 100%;
+    height: 100%;
+}
+.two-picture-right{
+    width: 637px;
+    height: 160px;
+   /* background: #00a5c4;*/
+    float: left;
+}
+.two-title{
+    width: 100%;
+    height: 27px;
+    margin-bottom: 20px;
+}
+.two-title a{
+    font-size: 22px;
+    color: #000;
+}
+.two-title a:hover{
+    color: blue;
+}
+.two-title1{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.two-title1 p{
+    font-size: 16px;
+    color:  #76838f;
+}
+.two-title-f{
+    width: 375px;
+    height: 21px;
+    /*background: #00a5c4;*/
+}
+.two-title-f span{
+    font-size: 14px;
+    font-weight: 300;
+    color: rgb(118,131,143);
+    float: left;
+}
+.span-wang{
+    font-size: 14px;
+    font-weight: 300;
+    color: rgb(118,131,143);
+    margin-left: 10px;
+}
+.span-wang i{
+    width: 14px;
+    height: 14px ;
+    color: rgb(118,131,143);
+}
+/*跳转开始*/
+.TCB-last-box{
+    width: 300px;
+    height: 20px;
+    margin:0 auto;
+    box-sizing: border-box;
+}
+.TCB-last-box a{
+    font-size:14px;
+    border: 1px solid #e4eaec;
+    padding: 9px 15px;
+    color: #000;
+}
+.TCB-last-box a:nth-child(2){
+    color: white;
+    background: red;
+}
+/*跳转页面结束*/
+.container-box-right{
+    width: 263px;
+    height: 380px;
+    background: white;
+    float: right;
+    padding: 10px 15px;
+    box-sizing: border-box;
+}
+.container-right-from{
+    width: 223px;
+    height: 36px;
+    padding: 10px 5px 20px 5px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.input{
+    width: 100%;
+    height: 100%;
+    border-radius: 100px;
+    border: 1px solid #e0e0e0;
+}
+.input-sr{
+    width: 156px;
+    height: 20px;
+    padding-left: 15px;
+    padding-right: 20px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+/*    background: #00a5c4;*/
+    float: left;
+}
+.input-sr p{
+    color: #e0e0e0;
+    line-height: 20px;
+    font-size: 18px;
+}
+.input i{
+    font-size: 20px;
+    line-height: 35px;
+}
+.conatainer-right-sconed{
+    width:223px;
+ /*   height: 180px;*/
+    padding: 20px 0;
+    border-bottom: 1px solid #e0e0e0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.conatainer-right-sconed2{
+    width: 100%;
+    height: 32px;
+}
+.conatainer-right-sconed2 p{
+    font-size: 18px;
+}
+.list-group{
+    width: 223px;
+    height: 132px;
+   /* background: #00a5c4;*/
+    margin-top: 10px;
+}
+.list-group-temp{
+    width: 190px;
+    height: 23px;
+    border: 1px solid #e0e0e0;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+}
+.list-group-temp a{
+    font-size: 16px;
+    text-align: left;
+    cursor: pointer;
+}
+.list-group-temp a:hover{
+    color: #62a8ea;
+}
+.conatainer-right-last{
+    width: 100px;
+    height: 32px;
+    /*background: #00a5c4;*/
+    margin-top: 30px;
+}
+.conatainer-right-last p{
+     font-size: 16px;
+    text-align: center;
+     cursor: pointer;
+}
+.conatainer-right-last p:hover{
+    color: #62a8ea;
+}
+/*中间部分结束*/
+/*底部开始*/
+.foot{
+    width: 100%;
+    height: 181px;
+    margin: 0 auto;
+    background: rgb(224, 224, 224);
+    box-sizing: border-box;
+}
+.foot-text{
+    width: 1349px;
+    height: 56px;
+    margin: 0 auto;
+    padding: 5px 0px;
+    box-sizing: border-box;
+    /* background: #b0291b;*/
+}
+.foot-picture{
+    width: 150px;
+    height: 40px;
+    /* background: black;*/
+    margin: 0 auto;
+}
+.foot-picture i{
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    font-size: 30px;
+    color: #16c10a;
+    cursor: pointer;
+}
+/*.erweima{
+    width: 200px;
+    height: 0;
+    background: #e0e0e0;
+    position: absolute;
+    left: 600px;
+    bottom: 181px;
+    transition: all 0.5s linear;
+    z-index: 999;
+}*/
+.foot-picture a{
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    font-size: 30px;
+    color: #09c0b8;
+    cursor: pointer;
+}
+.foot-txt{
+    width: 1349px;
+    height: 79px;
+    margin: 0 auto;
+}
+.foot-txt img{
+    width: 20px;
+    height: 20px;
+}
+.txt-1{
+    width: 1349px;
+    height: 25px;
+    color: #00a5c4;
+    text-align: center;
+    cursor: pointer;
+}
+.foot-txt-next{
+    width: 1140px;
+    height: 25px;
+    margin: 0 auto;
+}
+.txt-2{
+    font-weight: 300;
+    font-size: 14px;
+    color: rgb(170,170,170);
+    text-align: center;
+}
+/*底部结束*/

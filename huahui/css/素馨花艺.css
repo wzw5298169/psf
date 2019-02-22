@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;/*清除文字下划线*/
+}
+/*首页顶部导航开始*/
+.huahui-header{
+    width: 100%;
+    height: 79px;
+    background: white;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+.header-content{
+    width: 1170px;
+    height: 100%;
+    margin: 0 auto;
+}
+.header-logo{
+    width: 150px;
+    height: 100%;
+    float: left;
+}
+.header-logo img{
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+}
+.header-nav{
+    width: 602px;
+    height: 79px;
+    /* background:pink;*/
+    float: right;
+}
+.header-nav a{
+    width: 86px;
+    height: 79px;
+    text-align: center;
+    line-height: 79px;
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+    float: left;
+}
+.header-nav a:nth-child(5) {
+    color: blue;
+}
+.header-nav a:hover{
+    color:  blue;
+}
+/*首页导航结束*/
+/*中间图片开始*/
+.met-img{
+    width: 100%;
+    height: 1224px;
+ /*   background: #00a5c4;*/
+    margin-bottom: 10px;
+}
+.met-img-box{
+    width: 50%;
+    height: 50%;
+    float: left;
+    position: relative;
+    background-image: url("../img/花图1.jpg");
+    background-size: 100% 100%;
+}
+.two{
+    background-image: url("../img/菊花.jpg");
+
+}
+.three{
+     background-image: url("../img/1530266608.JPG");
+}
+.four{
+     background-image: url("../img/花图1.jpg");
+ }
+.met-img-box:hover{
+    background-size: 120% 120%;
+     transition: all 1s;
+}
+.met-img-zhezhao{
+    width: 100%;
+    height: 100%;
+    z-index: 6;
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0;
+}
+.met-title-box>img:hover{
+  transform: scale(1.2);
+}
+.met-img-box img{
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+.met-title-box{
+    width: 120px;
+    height: 138px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 8;
+}
+.met-title-box-first{
+    width: 100%;
+    height: 38px;
+    margin: auto;
+}
+.met-title-box-first p{
+    text-align: center;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgb(255,255,255);
+}
+.met-title-box-first-k{
+    width: 20px;
+    height: 2px;
+    background: rgb(255,255,255);
+    margin: 10px auto;
+}
+.met-title-box-first h3{
+    width: 120px;
+    height: 29px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: rgb(255,255,255);
+}
+.liulan{
+    width: 60px;
+    height: 36px;
+    padding: 6px 15px;
+    box-sizing: border-box;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    margin: auto;
+    font-size: 14px;
+    color: #e0e0e0;
+}
+.liulan:hover{
+    background: white;
+    cursor: pointer;
+}
+/*中间图片结束*/
+
+/*底部开始*/
+.foot{
+    width: 100%;
+    height: 181px;
+    margin: 0 auto;
+    background: rgb(224, 224, 224);
+    box-sizing: border-box;
+}
+.foot-text{
+    width: 1349px;
+    height: 56px;
+    margin: 0 auto;
+    padding: 5px 0px;
+    box-sizing: border-box;
+    /* background: #b0291b;*/
+}
+.foot-picture{
+    width: 150px;
+    height: 40px;
+    /* background: black;*/
+    margin: 0 auto;
+}
+.foot-picture i{
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    font-size: 30px;
+    color: #16c10a;
+    cursor: pointer;
+}
+/*.erweima{
+    width: 200px;
+    height: 0;
+    background: #e0e0e0;
+    position: absolute;
+    left: 600px;
+    bottom: 181px;
+    transition: all 0.5s linear;
+    z-index: 999;
+}*/
+.foot-picture a{
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    font-size: 30px;
+    color: #09c0b8;
+    cursor: pointer;
+}
+.foot-txt{
+    width: 1349px;
+    height: 79px;
+    margin: 0 auto;
+}
+.foot-txt img{
+    width: 20px;
+    height: 20px;
+}
+.txt-1{
+    width: 1349px;
+    height: 25px;
+    color: #00a5c4;
+    text-align: center;
+    cursor: pointer;
+}
+.foot-txt-next{
+    width: 1140px;
+    height: 25px;
+    margin: 0 auto;
+}
+.txt-2{
+    font-weight: 300;
+    font-size: 14px;
+    color: rgb(170,170,170);
+    text-align: center;
+}
+/*底部结束*/
